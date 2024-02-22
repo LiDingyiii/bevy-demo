@@ -24,6 +24,7 @@ fn draw_example(mut gizmos:Gizmos,time:Res<Time>){
     gizmos.line_2d(Vec2::Y, Vec2::splat(-80.), Color::RED);
 }
 
+
 fn main() {
     App::new().add_plugins((DefaultPlugins, StartPlugins)).run();
 }
