@@ -1,2 +1,1 @@
-# bevy-demo
-bevy 学习demo
+# bevy-demo  官方quick start guide
