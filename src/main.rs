@@ -24,7 +24,7 @@ impl Plugin for StartPlugins {
 }
 
 fn draw_example(mut gizmos: Gizmos, time: Res<Time>) {
-    let sin = time.elapsed_seconds_wrapped().sin();
+    let sin: f32 = time.elapsed_seconds_wrapped().sin();
     gizmos.line_2d(Vec2::Y-sin, Vec2::splat(-80.), Color::RED);
 }
 
